@@ -321,6 +321,8 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
 
 			checkedTabWidths = true;
 		}
+
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 	}
 
 	private void scrollToChild(int position, int offset) {
