@@ -319,6 +319,7 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
 				}
 			}
 
+            super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 			checkedTabWidths = true;
 		}
 	}
